@@ -27,7 +27,7 @@
 	"e7ino.h"
 	"e7dir.h"
 
-1458571168 c:\users\ernst\documents\besturingssystemen\e7dump\e7types.h
+1458573101 c:\users\ernst\documents\besturingssystemen\e7dump\e7types.h
 	<cstdint>
 
 1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\e7const.h
@@ -70,4 +70,29 @@
 1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\device.h
 	<map>
 	"e7types.h"
+
+1455615628 source:c:\users\ernst\documents\besturingssystemen\e7dump\unix_error.cc
+	<cstring>
+	<cerrno>
+	<sstream>
+	"unix_error.h"
+
+1458574946 source:c:\users\ernst\documents\besturingssystemen\e7dump\main.cc
+	"ansi.h"
+	"asserts.h"
+	"unix_error.h"
+	"cstr.h"
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<unistd.h>
+	<fcntl.h>
+	<cstdio>
+	"Device.h"
+	"Block.h"
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\ansi.h
+	"common.h"
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\common.h
 

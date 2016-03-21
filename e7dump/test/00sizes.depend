@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1455615628 source:c:\users\ernst\documents\besturingssystemen\e7dump\test\checksizes.cc
+	<cstdio>
+	"../ansi.h"
+	"../e7const.h"
+	"../e7dir.h"
+	"../e7fblk.h"
+	"../e7filsys.h"
+	"../e7ino.h"
+	"../e7types.h"
+	"../Block.h"
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\ansi.h
+	"common.h"
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\common.h
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\e7const.h
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\e7dir.h
+	"e7types.h"
+
+1458573101 c:\users\ernst\documents\besturingssystemen\e7dump\e7types.h
+	<cstdint>
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\e7fblk.h
+	"e7types.h"
+	"e7filsys.h"
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\e7filsys.h
+	"e7types.h"
+
+1455615628 c:\users\ernst\documents\besturingssystemen\e7dump\e7ino.h
+	"e7types.h"
+
+1458571155 c:\users\ernst\documents\besturingssystemen\e7dump\block.h
+	<string>
+	"e7types.h"
+	"e7const.h"
+	"e7filsys.h"
+	"e7fblk.h"
+	"e7ino.h"
+	"e7dir.h"
+

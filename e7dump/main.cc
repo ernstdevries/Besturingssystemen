@@ -27,6 +27,11 @@
 // TODO: write all the functions etc you need for this assignment
 void	dump( const char* floppie )
 {
+	 std::cout << "Opening device '" << floppie << "'" << std::endl
+	Device device(floppie);
+
+
+
 }
 
 // ================================================================

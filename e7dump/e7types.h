@@ -23,7 +23,7 @@
 
 typedef unsigned char		byte;	/*!< 1 byte : raw data byte type */
 STATIC_ASSERT(sizeof(byte)==1);	// verify size
-
+ typedef  unsigned long  ulong;
 // Normally (by convention) the names of logical types (e.g. size_t)
 // end with _t. However in this assignment such names would clash with
 // the logical types already defined for your native platform.

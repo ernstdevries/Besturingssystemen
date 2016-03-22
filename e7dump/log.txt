@@ -74,8 +74,29 @@ Examining 456 winodes
 ---------------------------------------
 
 ---------------------------------------
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+28
+116
+117
 inode 2, mode=040777 (expect 040777)
 inode 2, mode=040777 (expect 040777)
 Good: it is a directory
 diskaddr:  60 1422 0 0 0 0 0 0 0 0 0 0 0
-Device: needed 26 reads for 27 requests (3% cache hitrate)
+Device: needed 82 reads for 85 requests (3% cache hitrate)
+NOTE: There were still 58 blocks in use!

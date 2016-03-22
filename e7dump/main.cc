@@ -165,6 +165,29 @@ void printFreeLists(Device& device)
 
 }
 
+void printInode(int inodeNumber, dinode* dp){
+
+     if (inodeNumber == 1 || dp->di_nlink != 0) {
+                cout << inodeNumber << endl;
+        }
+}
+void printInodes(Device& device)
+{
+    Block*  sp = device.getBlock(SUPERB);
+    for (int i = 0; i < sp->u.fs.s_isize -2 ; ++i) {
+        Block*  ip = device.getBlock( itod(ROOTINO) + i);
+        for (int y = 1; y < INOPB+1; ++y) {
+            int iNum = (i*8) + y;
+            dinode* dp = &ip->u.dino[ itoo(y)];
+            printInode(iNum, dp);
+
+
+        }
+    }
+
+}
+
+
 
 //
 // TODO: write all the functions etc you need for this assignment
@@ -178,6 +201,7 @@ void	dump( const char* floppie )
     cout << line << endl;
     printFreeLists(device);
     cout << endl << line << endl;
+    printInodes(device);
     printRootinode(device);
 
 }
